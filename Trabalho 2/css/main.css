@@ -27,7 +27,9 @@ nav a{
     display: block;
     color: black;
     text-align: center;
-    padding-bottom: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-decoration: none;
     width: 100%;
 }
@@ -83,4 +85,13 @@ aside{
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+}
+@media screen and (min-width: 800px){
+    body{
+        display: inline;
+    }
+    article{
+        width:40%;
+        margin:5px;
+    }
 }
