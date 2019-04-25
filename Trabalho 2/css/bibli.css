@@ -1,0 +1,13 @@
+@media screen and (min-width: 700px){
+    .Col{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    .Col div{
+        width: 45%;
+        margin: auto;
+
+    }
+
+}

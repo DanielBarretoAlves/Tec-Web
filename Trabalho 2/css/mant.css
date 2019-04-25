@@ -4,13 +4,29 @@
 }
 .artCard a{
     text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 15px;
+  font-size: 140%;
 }
-.artCard p{
-    display: none;
+.artCard li{
+    list-style: none;
 
+
+}
+#bannerBot{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+}
+#bannerBot img{
+    width: 32%;
+    height: 300px;
+    margin: 5px;
+}
+#l1:active + #t1{
+    display: block;
 }
 .artCard p, strong:hover{
     color:blue;
