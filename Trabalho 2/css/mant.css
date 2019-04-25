@@ -1,0 +1,31 @@
+.artCard{
+    display: block;
+    
+}
+.artCard a{
+    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+.artCard p{
+    display: none;
+
+}
+.artCard p, strong:hover{
+    color:blue;
+    display: block;
+    
+}
+@media screen and (min-width: 700px){
+    nav{
+        margin-bottom: 0px;
+    }
+    article, aside{
+        width: 90%;
+        margin: auto;
+    }
+    selection{
+        margin: auto;
+    }
+}

@@ -13,6 +13,18 @@ header{
     margin-bottom: 20px;
     background-image: linear-gradient(#000051, #534bae);
 }
+.banner{
+    background-color: #000051;
+    color:white;
+    padding: auto;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border-radius:15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#000051, #534bae);
+}
 nav{
     overflow: hidden;
     background-color: white;
@@ -75,6 +87,7 @@ section{
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    filter: alpha(opacity=100);
 }
 aside{
     background-color: white;
@@ -100,18 +113,29 @@ aside{
         display: flex;
         flex-wrap: wrap;
         overflow-y: scroll;
+        background: rgba(76, 175, 80, 0.0);
+        box-shadow: none;
     }
     article{
         width:30%;
         margin:5px;
         overflow-y: scroll;
-        height: 500px;
+        height: 600px;
     }
     header{
         width:100%;
         border-radius:0px;
         margin-bottom: 0px;
         font-weight: bold;
+    }
+    .banner{
+        width:100%;
+        border-radius:0px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        border-bottom: 1px dashed black;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     nav{
         overflow: hidden;
