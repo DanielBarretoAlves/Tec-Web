@@ -1,11 +1,13 @@
 body{
     background-color: #c7c7c7;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     background-color: #000051;
     color:white;
     padding: auto;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     width: 90%;
     margin: auto;
@@ -35,7 +37,7 @@ nav{
     border-radius:15px;
     padding: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a{
     display: block;
@@ -51,9 +53,10 @@ nav a:hover{
     background-color: #ddd;
     color: black;
     border-radius:15px;
+    cursor: pointer;
 
 }
-article{
+article, aside{
     background-color: white;
     width: 90%;
     margin: auto;
@@ -118,7 +121,7 @@ aside{
         background: rgba(76, 175, 80, 0.0);
         box-shadow: none;
     }
-    article{
+    article, aside{
         width:30%;
         margin:5px;
         overflow-y: scroll;
@@ -148,7 +151,7 @@ aside{
         margin: auto;
         height: auto;
         padding: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     nav a{
